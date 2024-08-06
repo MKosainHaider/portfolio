@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Poppins:wght@200&display=swap"
+        rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <nav class="nav-bar">
+                <div class="left-section">
+                    <!-- <div class="logo">
+                        <img src="./images/logo.png" class="logo-img" alt="logo">
+                    </div> -->
+                    <div class="nav-links">
+                        <a href="#">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#services">Services</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+                <div class="right-section">
+                    <button class="btn btn-primary">Contact</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="left-hero">
+            <img src="./Assets/kosain pic.jpg" class="main-img" alt="Profile">
+        </div>
+        <div class="right-hero">
+            <h6>Kosain Haider</h6>
+            <h1>I'm a Web<br> <span>Developer</span></h1>
+            <p>I specialize in creating dynamic and responsive websites that provide a seamless user experience. With a
+                strong foundation in HTML, CSS, and JavaScript, I build web applications that are both functional and
+                visually appealing. My goal is to help businesses establish a robust online presence through custom web
+                development solutions tailored to their specific needs.</p>
+            <div>
+                <a href="./Assets/Kosain's Resume.pdf" class="btn btn-secondary" download>DOWNLOAD CV</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container about-container">
+            <div class="about-left">
+                <img src="./Assets/kosain pic 2.jpg" class="profile-pic" alt="profile pic">
+            </div>
+            <div class="about-right">
+                <h1>About <span>Me</span></h1>
+                <h3>Hello! I'm Kosain Haider.</h3>
+                <p>I am a passionate web developer with a knack for creating engaging and user-friendly websites. My
+                    journey in web development started during my college years, where I discovered my love for coding
+                    and design. Over the years, I have honed my skills in various programming languages and frameworks,
+                    allowing me to build websites that are not only visually appealing but also highly functional.</p>
+                <p>When I am not coding, I enjoy reading tech blogs, experimenting with new web technologies, and
+                    contributing to open-source projects. I believe in continuous learning and always strive to keep
+                    myself updated with the latest trends in web development.</p>
+                <div class="socials">
+                    <a href="#"><img src="./Assets/icons8-github.svg" class="social-icon" alt="GITHUB"></a>
+                    <a href="#"><img src="./Assets/icons8-facebook.svg" class="social-icon" alt="facebook"></a>
+                    <a href="#"><img src="./Assets/icons8-instagram.svg" class="social-icon" alt="instagram"></a>
+                    <a href="#"><img src="./Assets/icons8-linkedin.svg" class="social-icon" alt="LinkedIn"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h1 class="services-head">Services</h1>
+            <p>All your digital needs... covered.</p>
+            <div class="card-grid">
+                <div class="card">
+                    <img src="./Assets/web-design.png" class="card-img" alt="Graphic Design">
+                    <h2>Graphic Design</h2>
+                    <p>Our graphic design services will help you create visually stunning and effective designs for your
+                        brand, from logos and brochures to social media graphics and more.</p>
+                </div>
+                <div class="card">
+                    <img src="./Assets/coding.png" class="card-img" alt="Web Development">
+                    <h2>Web Development</h2>
+                    <p>We offer professional web development services to help you build a robust online presence. From
+                        simple websites to complex web applications, we have the expertise to deliver quality results.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./Assets/writer.png" class="card-img" alt="Content Writing">
+                    <h2>Content Writing</h2>
+                    <p>Our content writing services ensure that your message is communicated clearly and effectively. We
+                        provide engaging and SEO-friendly content for blogs, websites, social media, and more.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Kosain Haider. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
