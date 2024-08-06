@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
   padding: 0;
   margin: 0;
@@ -6,12 +6,11 @@
   -webkit-font-smoothing: antialiased;
 }
 
-/* Global Styles */
 body {
   font-family: "Poppins", sans-serif;
   background-color: #000;
   color: #fff;
-  text-align: center; /* Center all text content */
+  text-align: center;
 }
 
 /* Header Styles */
@@ -22,12 +21,11 @@ header {
 /* Navigation Bar Styles */
 .nav-bar,
 .nav-links,
-.right-section,
 .about-container,
 .socials {
   display: flex;
   align-items: center;
-  justify-content: center; /* Center content */
+  justify-content: center; 
 }
 
 .nav-bar,
@@ -50,14 +48,11 @@ header {
   transition: color 0.2s ease;
 }
 
-/* General Hover Effect */
 .hover-effect:hover {
   color: rgb(29, 221, 189);
   background: transparent;
   border-color: rgb(29, 221, 189);
 }
-
-/* Apply Hover Effect to Navigation Links */
 .nav-links a:hover {
   color: rgb(29, 221, 189);
 }
@@ -74,20 +69,20 @@ header {
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   padding: 2rem 0 3rem;
-  margin: 2rem 0; /* Added margin to hero section */
-  text-align: center; /* Center text in hero section */
+  margin: 2rem 0;
+  text-align: center;
 }
 
 .left-hero,
 .about-left {
   justify-content: center;
-  align-items: center; /* Centering content */
+  align-items: center; 
 }
 
 .main-img {
-  width: 80%; /* Decreased size of the first image */
+  width: 80%; 
   max-width: 300px;
-  border-radius: 50%; /* Optional: Make the image circular */
+  border-radius: 50%; 
 }
 
 .right-hero {
@@ -95,7 +90,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; /* Centering content */
+  align-items: center; 
 }
 
 .hero h6 {
@@ -120,7 +115,7 @@ header {
 .about-right p {
   line-height: 1.9;
   margin-bottom: 2rem;
-  max-width: 600px; /* Optional: Limit the width of paragraphs for better readability */
+  max-width: 600px; 
 }
 
 /* Button Styles */
@@ -157,7 +152,7 @@ header {
 /* Section Styles */
 section {
   padding: 6rem 1rem;
-  text-align: center; /* Center text in all sections */
+  text-align: center; 
 }
 
 /* About Section Styles */
@@ -165,7 +160,7 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
-  justify-content: center; /* Center content */
+  justify-content: center; 
 }
 
 .about-right h1 {
@@ -184,9 +179,8 @@ section {
   font-family: "Lato", sans-serif;
   color: rgb(190, 181, 181);
   line-height: 1.9rem;
-  max-width: 600px; /* Optional: Limit the width of paragraphs for better readability */
+  max-width: 600px; 
 }
-
 .socials a {
   justify-content: center;
   width: 35px;
@@ -265,7 +259,7 @@ section {
   padding: 4rem 0;
   background: #000;
   text-align: center;
-  border: 2px solid #fff; /* Added white border around contact section */
+  border: 2px solid #fff; 
 }
 
 .contact h1 {
@@ -348,9 +342,9 @@ footer p {
 }
 
 .main-img {
-  width: 80%; /* Decreased size of the first image */
+  width: 80%; 
   max-width: 300px;
-  border-radius: 50%; /* Optional: Make the image circular */
+  border-radius: 50%; 
 }
 
 .profile-pic {
